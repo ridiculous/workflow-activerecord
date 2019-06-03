@@ -2,12 +2,8 @@
 ](https://img.shields.io/gem/v/workflow-activerecord.svg?maxAge=2592000)](https://rubygems.org/gems/workflow-activerecord)
 [![Build Status
 ](https://travis-ci.org/geekq/workflow-activerecord.svg)](https://travis-ci.org/geekq/workflow-activerecord)
-<!-- TODO find out how to add this repository without giving cloudclimate write access to the repo
-[![Code Climate
-](https://codeclimate.com/github/geekq/workflow-activerecord/badges/gpa.svg)](https://codeclimate.com/github/geekq/workflow-activerecord)
-[![Test
-Coverage](https://codeclimate.com/github/geekq/workflow-activerecord/badges/coverage.svg)](https://codeclimate.com/github/geekq/workflow-activerecord/coverage)
--->
+[![Code Climate](https://codeclimate.com/github/geekq/workflow-activerecord/badges/gpa.svg)](https://codeclimate.com/github/geekq/workflow-activerecord)
+[![Test Coverage](https://codeclimate.com/github/geekq/workflow-activerecord/badges/coverage.svg)](https://codeclimate.com/github/geekq/workflow-activerecord/coverage)
 
 # workflow-activerecord
 
@@ -193,6 +189,15 @@ You can have a look at an advanced [`on_transition`][] example in
 
 Changelog
 ---------
+
+### New in the version 4.1.6
+
+* gh-3, gh-5 allow automatic require of workflow-activerecord - no need for explicit `require` anymore
+
+### New in the version 4.1.5
+
+* gh-2 Show code coverage on codeclimate
+* gh-7 Improve require for base `workflow`
 
 ### New in the version 4.1.3
 
